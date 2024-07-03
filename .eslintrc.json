@@ -1,0 +1,18 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "no-console": "off",        // Allow console logs for debugging
+      "semi": ["error", "always"],// Enforce semicolons at the end of statements
+      "quotes": ["error", "single"], // Enforce single quotes for string literals
+      "no-unused-vars": ["error", { "args": "none" }],  // Disallow unused variables
+      "indent": ["error", 2],     // Enforce 2 spaces for indentation
+      "class-methods-use-this": "off",  // Disable rule requiring 'this' to be used in class methods
+      "consistent-return": "off", // Disable rule requiring consistent return in functions
+      "func-names": "off"         // Disable rule requiring named functions
+    }
+  }
+  
